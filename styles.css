@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #8C1515; /* Stanford Cardinal */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 1.5em;
+    color: #8C1515; /* Stanford Cardinal */
+    margin-bottom: 10px;
+}
+
+.organizers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.organizer {
+    flex: 1;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #2D2D2D; /* Dark grey */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
