@@ -84,6 +84,11 @@
 
         <div class="section">
             <div class="section-title">Future Events</div>
+            <ul>
+                <li>Thursday, October 3, 2024, 3:30 PM, Shriram 262 (Tentative)</li>
+                <li>Thursday, November 7, 2024, 3:30 PM, Shriram 262 (Tentative)</li>
+                <li>Thursday, December 5, 2024, 3:30 PM, Shriram 262 (Tentative)</li>
+            </ul>
         </div>
 
         <div class="section">
@@ -120,7 +125,19 @@
 
     <footer>
         <p>&copy; 2024 Stanford University. All rights reserved.</p>
+        <p>Last Updated: <span id="last-updated"></span></p>
     </footer>
+    <script>
+        // Get the current date
+        const lastUpdated = new Date();
+    
+        // Format the date to a readable format (e.g., September 23, 2024)
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        const formattedDate = lastUpdated.toLocaleDateString(undefined, options);
+    
+        // Insert the formatted date into the footer
+        document.getElementById('last-updated').textContent = formattedDate;
+    </script>    
 </body>
 </html>
 
